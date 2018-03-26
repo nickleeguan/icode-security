@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="icode-security:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/icode_security_jar</output-path>
+    <root id="archive" name="icode-security.jar">
+      <element id="module-output" name="icode-security" />
+    </root>
+  </artifact>
+</component>

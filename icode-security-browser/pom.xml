@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <artifactId>icode-security-browser</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <parent>
+        <groupId>com.icode.security</groupId>
+        <artifactId>icode-security</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../icode-security</relativePath>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.icode.security</groupId>
+            <artifactId>icode-security-core</artifactId>
+            <version>${icode.security.version}</version>
+        </dependency>
+
+        <!--浏览器安全session依赖-->
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session</artifactId>
+        </dependency>
+    </dependencies>
+</project>

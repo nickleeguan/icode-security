@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/icode-security.iml" filepath="$PROJECT_DIR$/icode-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../icode-security-app/icode-security-app.iml" filepath="$PROJECT_DIR$/../icode-security-app/icode-security-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../icode-security-browser/icode-security-browser.iml" filepath="$PROJECT_DIR$/../icode-security-browser/icode-security-browser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../icode-security-core/icode-security-core.iml" filepath="$PROJECT_DIR$/../icode-security-core/icode-security-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../icode-security-demo/icode-security-demo.iml" filepath="$PROJECT_DIR$/../icode-security-demo/icode-security-demo.iml" />
+    </modules>
+  </component>
+</project>
